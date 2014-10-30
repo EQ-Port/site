@@ -1,0 +1,6 @@
+{
+    "require":{
+        "yiisoft/yii":"1.1.x",
+        "leafo/lessphp":"0.4.0"
+    }
+}
