@@ -57,6 +57,6 @@
 <?= CHtml::scriptFile('/assets/compiled/' . DesignHelper::o()->getJsHeaderFile()) ?>
 
 <?= CHtml::scriptFile('/assets/compiled/' . DesignHelper::o()->getJsFooterFile()) ?>
-<? var_dump(DesignHelper::o()->getCssFile()) ?>
+<? Yii::app()->getClientScript()->registerCssFile('/assets/compiled/' . DesignHelper::o()->getCssFile()); ?>
 </body>
 </html>

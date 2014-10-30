@@ -130,7 +130,7 @@ class DesignHelper
 
         // Если файл найден, а debug отключен - возвращаем путь
         if (file_exists(Yii::app()->basePath . '/..' . $this->_compiledDir . '/' . $resultFilename) && !Yii::app()->params['debug']) {
-            return Yii::app()->basePath;
+            return $resultFilename;
         }
 
         // Такой набор стилей ещё не компилировался, начинаем собирать
@@ -152,8 +152,6 @@ class DesignHelper
         fputs($file, $cssCode);
         fclose($file);
         chmod(Yii::app()->basePath . '/..' . $this->_compiledDir . '/' . $resultFilename, 0777);
-
-        //file_put_contents(Yii::app()->basePath . '/..' . $this->_compiledDir . '/' . $resultFilename, $cssCode);
 
         return $resultFilename;
     }
