@@ -212,3 +212,181 @@ REQUEST_URI=/
 in /home/ashubin/development/eq/protected/components/helpers/DesignHelper.php (151)
 in /home/ashubin/development/eq/protected/views/layouts/main.php (60)
 in /home/ashubin/development/eq/protected/views/layouts/column1.php (6)
+2014/10/31 11:01:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/ashubin/development/eq/vendor/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ashubin/development/eq/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/ashubin/development/eq/vendor/yiisoft/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ashubin/development/eq/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/11/13 20:41:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/ashubin/development/eq/vendor/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ashubin/development/eq/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/ashubin/development/eq/vendor/yiisoft/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ashubin/development/eq/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/11/13 20:47:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/images/bg_logo.jpg".' in /home/ashubin/development/eq/vendor/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ashubin/development/eq/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/images/b...')
+#1 /home/ashubin/development/eq/vendor/yiisoft/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ashubin/development/eq/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/images/bg_logo.jpg
+HTTP_REFERER=http://eq.dev/assets/compiled/style-853ff527906a564f2227d17112f4ed9c.css
+---
+2014/11/13 20:47:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/images/desktop.jpg".' in /home/ashubin/development/eq/vendor/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ashubin/development/eq/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/images/d...')
+#1 /home/ashubin/development/eq/vendor/yiisoft/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ashubin/development/eq/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/images/desktop.jpg
+HTTP_REFERER=http://eq.dev/assets/compiled/style-853ff527906a564f2227d17112f4ed9c.css
+---
+2014/11/13 20:47:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/images/logo.png".' in /home/ashubin/development/eq/vendor/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ashubin/development/eq/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/images/l...')
+#1 /home/ashubin/development/eq/vendor/yiisoft/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ashubin/development/eq/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/images/logo.png
+HTTP_REFERER=http://eq.dev/assets/compiled/style-853ff527906a564f2227d17112f4ed9c.css
+---
+2014/11/13 20:47:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/images/ll.png".' in /home/ashubin/development/eq/vendor/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ashubin/development/eq/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/images/l...')
+#1 /home/ashubin/development/eq/vendor/yiisoft/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ashubin/development/eq/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/images/ll.png
+HTTP_REFERER=http://eq.dev/assets/compiled/style-853ff527906a564f2227d17112f4ed9c.css
+---
+2014/11/13 20:47:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/images/rr.png".' in /home/ashubin/development/eq/vendor/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ashubin/development/eq/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/images/r...')
+#1 /home/ashubin/development/eq/vendor/yiisoft/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ashubin/development/eq/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/images/rr.png
+HTTP_REFERER=http://eq.dev/assets/compiled/style-853ff527906a564f2227d17112f4ed9c.css
+---
+2014/11/13 20:52:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/images/bg_logo.jpg".' in /home/ashubin/development/eq/vendor/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ashubin/development/eq/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/images/b...')
+#1 /home/ashubin/development/eq/vendor/yiisoft/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ashubin/development/eq/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/images/bg_logo.jpg
+HTTP_REFERER=http://eq.dev/assets/compiled/style-853ff527906a564f2227d17112f4ed9c.css
+---
+2014/11/13 20:52:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/images/logo.png".' in /home/ashubin/development/eq/vendor/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ashubin/development/eq/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/images/l...')
+#1 /home/ashubin/development/eq/vendor/yiisoft/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ashubin/development/eq/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/images/logo.png
+HTTP_REFERER=http://eq.dev/assets/compiled/style-853ff527906a564f2227d17112f4ed9c.css
+---
+2014/11/13 20:52:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/images/rr.png".' in /home/ashubin/development/eq/vendor/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ashubin/development/eq/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/images/r...')
+#1 /home/ashubin/development/eq/vendor/yiisoft/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ashubin/development/eq/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/images/rr.png
+HTTP_REFERER=http://eq.dev/assets/compiled/style-853ff527906a564f2227d17112f4ed9c.css
+---
+2014/11/13 20:52:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/images/ll.png".' in /home/ashubin/development/eq/vendor/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ashubin/development/eq/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/images/l...')
+#1 /home/ashubin/development/eq/vendor/yiisoft/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ashubin/development/eq/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/images/ll.png
+HTTP_REFERER=http://eq.dev/assets/compiled/style-853ff527906a564f2227d17112f4ed9c.css
+---
+2014/11/13 20:53:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/images/rr.png".' in /home/ashubin/development/eq/vendor/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ashubin/development/eq/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/images/r...')
+#1 /home/ashubin/development/eq/vendor/yiisoft/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ashubin/development/eq/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/images/rr.png
+HTTP_REFERER=http://eq.dev/assets/compiled/style-853ff527906a564f2227d17112f4ed9c.css
+---
+2014/11/13 20:53:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/images/logo.png".' in /home/ashubin/development/eq/vendor/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ashubin/development/eq/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/images/l...')
+#1 /home/ashubin/development/eq/vendor/yiisoft/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ashubin/development/eq/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/images/logo.png
+HTTP_REFERER=http://eq.dev/assets/compiled/style-853ff527906a564f2227d17112f4ed9c.css
+---
+2014/11/13 20:53:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/images/ll.png".' in /home/ashubin/development/eq/vendor/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ashubin/development/eq/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/images/l...')
+#1 /home/ashubin/development/eq/vendor/yiisoft/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ashubin/development/eq/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/images/ll.png
+HTTP_REFERER=http://eq.dev/assets/compiled/style-853ff527906a564f2227d17112f4ed9c.css
+---
+2014/11/13 20:54:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/images/ll.png".' in /home/ashubin/development/eq/vendor/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ashubin/development/eq/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/images/l...')
+#1 /home/ashubin/development/eq/vendor/yiisoft/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ashubin/development/eq/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/images/ll.png
+HTTP_REFERER=http://eq.dev/assets/compiled/style-853ff527906a564f2227d17112f4ed9c.css
+---
+2014/11/13 20:54:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/images/logo.png".' in /home/ashubin/development/eq/vendor/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ashubin/development/eq/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/images/l...')
+#1 /home/ashubin/development/eq/vendor/yiisoft/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ashubin/development/eq/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/images/logo.png
+HTTP_REFERER=http://eq.dev/assets/compiled/style-853ff527906a564f2227d17112f4ed9c.css
+---
+2014/11/13 20:54:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/images/rr.png".' in /home/ashubin/development/eq/vendor/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ashubin/development/eq/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/images/r...')
+#1 /home/ashubin/development/eq/vendor/yiisoft/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ashubin/development/eq/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/images/rr.png
+HTTP_REFERER=http://eq.dev/assets/compiled/style-853ff527906a564f2227d17112f4ed9c.css
+---
+2014/11/13 20:54:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/images/logo.png".' in /home/ashubin/development/eq/vendor/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ashubin/development/eq/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/images/l...')
+#1 /home/ashubin/development/eq/vendor/yiisoft/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ashubin/development/eq/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/images/logo.png
+HTTP_REFERER=http://eq.dev/assets/compiled/style-853ff527906a564f2227d17112f4ed9c.css
+---
+2014/11/13 20:54:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/images/rr.png".' in /home/ashubin/development/eq/vendor/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ashubin/development/eq/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/images/r...')
+#1 /home/ashubin/development/eq/vendor/yiisoft/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ashubin/development/eq/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/images/rr.png
+HTTP_REFERER=http://eq.dev/assets/compiled/style-853ff527906a564f2227d17112f4ed9c.css
+---
+2014/11/13 21:31:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/images/logo.png".' in /home/ashubin/development/eq/vendor/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ashubin/development/eq/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/images/l...')
+#1 /home/ashubin/development/eq/vendor/yiisoft/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ashubin/development/eq/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/images/logo.png
+HTTP_REFERER=http://eq.dev/assets/compiled/style-853ff527906a564f2227d17112f4ed9c.css
+---

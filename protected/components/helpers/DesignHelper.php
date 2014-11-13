@@ -3,7 +3,9 @@ class DesignHelper
 {
     private $_jsHeader = array();
     private $_jsFooter = array();
-    private $_less = array();
+    private $_less = array(
+        'style.less'
+    );
 
     /**
      * @var DesignHelper
