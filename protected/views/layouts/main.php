@@ -1,22 +1,12 @@
 <?php /* @var $this Controller */ ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="language" content="en" />
+	<meta name="language" content="ru" />
 
-	<!-- blueprint CSS framework -->
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/screen.css" media="screen, projection" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/print.css" media="print" />
-	<!--[if lt IE 8]>
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/ie.css" media="screen, projection" />
-	<![endif]-->
-
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
 
-	<link rel="stylesheet/less" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/style.less" />
-    <script src="<?php echo Yii::app()->request->baseUrl; ?>/css/less.min.js" type="text/javascript"></script>
     <link rel="shortcut icon" href="<?php echo Yii::app()->request->baseUrl; ?>/icons/home.png" />
 
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
@@ -33,12 +23,6 @@
                    <form class="search">
                         <input type="search" placeholder="поиск" autocomplete="off"/>
                     </form>
-                    <!-- <ul class="menu">
-                        <li><a href="/">Главная</a></li>
-                        <li><a href="#">Инфо-сервисы</a></li>
-                        <li><a href="#">Форум</a></li>
-                        <li><a href="#">Блоги ведущих</a></li>
-                    </ul> -->
                     <?php $this->widget('zii.widgets.CMenu',array(
 						'items'=>array(
 							array('label'=>'Home', 'url'=>array('/site/index')),
@@ -47,6 +31,9 @@
 							array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
 							array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
 						),
+                        'htmlOptions' => array(
+                            'class' => 'menu',
+                        ),
 					)); ?>
                 </div>
             </nav>
