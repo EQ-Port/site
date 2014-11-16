@@ -29,7 +29,9 @@
 .dis_bl {
   display: block
 }
-
+.dis_n {
+    display: none
+}
 .tdn {
   text-decoration: none
 }
@@ -76,7 +78,6 @@ body {
 header {
   height: 235px;
   background: url(/design/i/bg_logo.jpg);
-
   .pos_rel;
   .base_width;
   &:before {
@@ -108,18 +109,60 @@ header {
     .fl;
 
   }
-  span {
-    font-size: 42pt;
-    color: #FFCC66;
-    margin-top: 150px;
-    margin-right: 10px;
-    .fr;
-    .dis_bl;
-    &:last-child {
-      color: #99CCFF;
-    }
+  .user {
+      .fr;
+      .pos_rel;
+      padding: 10px;
+      z-index: 99;
+        audio {
+          margin-right: 20px;
+      }
+      .profile {          
+          width: 50px;
+          height: auto;
+          .fr;
+          .pos_rel;
+              &:before {
+                  content: "";
+                  width: 13px;
+                  height: 10px;
+                  background: url(/design/i/more.png);
+                  top: 20px;
+                  right: 55px;
+                  .pos_abs;
+                  .dis_bl;
+              }
+              img {
+              width: 50px;
+              height: auto;
+              .fr;
+
+          }
+          .more {
+              .dis_n;
+              .pos_abs;
+              background: rgba(0, 0, 0, 0.7);
+              border-radius: 4px;
+              top: 0px;
+              right: 50px;
+              z-index: 9;
+              ul {
+               list-style: none;    
+              }
+              a {
+                  .dis_bl;
+                  .tdn;
+                  .base_font;
+                  padding: 10px;
+              }
+          }
+          &:hover .more {
+              .dis_bl;
+          }
+      }    
   }
-}
+
+  }
 
 nav {
   border-top: 1px solid black;
@@ -171,13 +214,8 @@ aside {
 .leftbar {
   .fl;
 }
-
-.rightbar {
-  .fr;
-}
-
 .content {
-  margin: 30px 220px;
+  margin: 30px 0px 30px 220px;
 }
 
 .navigation, .face, .user_panel, .pr_right, .content {

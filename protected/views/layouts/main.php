@@ -25,7 +25,21 @@
             <header>
                 <div class="wrapper">
                     <div class="logo"><?php echo CHtml::encode(Yii::app()->name); ?></div>
-                    <span>EQUILIBRIUM</span> <span>Радио</span> 
+                    <div class="user">
+                        <div class="profile">   
+                            <img src="images/users/b4c1bd0f111cd49b0164741b917f7589.jpg">
+                            <div class="more">
+                                <ul>
+                                    <li><a href="#">Профиль</a></li>
+                                    <li><a href="#">Настройки</a></li>
+                                    <li><a href="#">Выйти</a></li>
+                                </ul>
+                            </div>
+                        </div> 
+                           <audio controls>
+                            <source src="http://dl.zaycev.net/75549/3085770/nickelback_-_get_em_up_(zaycev.net).mp3" type="audio/mpeg">
+                          </audio>                       
+                    </div>
                 </div>
             </header>
             <nav>
@@ -57,14 +71,6 @@
                     </div>
                     <div class="face">
         		<h3>Наши лица</h3>
-                    </div>
-                </aside>
-                <aside class="rightbar">
-                    <div class="user_panel">
-                    	<h3>Авторизация</h3>
-                    </div>
-                    <div class="pr_right">
-        		<h3>Реклама</h3>
                     </div>
                 </aside>
                 <div class="content">
