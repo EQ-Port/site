@@ -14,7 +14,7 @@
 <body>
             <header>
                 <div class="wrapper">
-                    <div class="logo"><?php echo CHtml::encode(Yii::app()->name); ?></div>
+                    <div class="logo"><a href="/" title="На главную"></a></div>
                     <div class="user">
                         <div class="profile">   
                             <img src="images/users/b4c1bd0f111cd49b0164741b917f7589.jpg">
