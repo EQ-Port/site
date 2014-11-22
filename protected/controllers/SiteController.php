@@ -2,6 +2,22 @@
 
 class SiteController extends Controller
 {
+    public function filters()
+    {
+        return array('accessControl');
+    }
+
+    public function accessRules()
+    {
+        return array(
+            array(
+                'deny',
+                'actions' => array('contact'),
+                'users' => array('?'),
+            ),
+        );
+    }
+
 	/**
 	 * Declares class-based actions.
 	 */
@@ -81,25 +97,18 @@ class SiteController extends Controller
 	 */
 	public function actionLogin()
 	{
-		$model=new LoginForm;
-
-		// if it is ajax validation request
-		if(isset($_POST['ajax']) && $_POST['ajax']==='login-form')
-		{
-			echo CActiveForm::validate($model);
-			Yii::app()->end();
-		}
+		$form = new AuthForm('login');
 
 		// collect user input data
-		if(isset($_POST['LoginForm']))
+		if($post = Yii::app()->request->getPost('AuthForm'))
 		{
-			$model->attributes=$_POST['LoginForm'];
+			$form->attributes = $post;
 			// validate user input and redirect to the previous page if valid
-			if($model->validate() && $model->login())
+			if($form->validate() && $form->login())
 				$this->redirect(Yii::app()->user->returnUrl);
 		}
 		// display the login form
-		$this->render('login',array('model'=>$model));
+		$this->render('login', array('model' => $form));
 	}
 
 	/**

@@ -4,3 +4,4 @@ composer.lock
 composer.phar
 protected/config/db.php
 assets
+protected/runtime/

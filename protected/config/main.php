@@ -14,6 +14,8 @@ return array(
 	// preloading 'log' component
 	'preload'=>array('log'),
 
+    'sourceLanguage' => 'ru',
+
 	// autoloading model and component classes
 	'import'=>array(
 		'application.models.*',
@@ -35,10 +37,12 @@ return array(
 
 	// application components
 	'components'=>array(
-		'user'=>array(
-			// enable cookie-based authentication
-			'allowAutoLogin'=>true,
-		),
+        'user'=>array(
+            'allowAutoLogin' => true,
+            'class' => 'WebUser',
+            'loginUrl' => array('site/login'),
+            'guestName'=>'Гость',
+        ),
 		// uncomment the following to enable URLs in path-format
 
 		'urlManager'=>array(
