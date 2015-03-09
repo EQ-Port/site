@@ -51,6 +51,7 @@ return array(
             'showScriptName'=>false,
             'urlSuffix' => '/',
 			'rules'=>array(
+				'event/<code:\w+>'=>'event/event',
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
