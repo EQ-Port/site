@@ -7,15 +7,17 @@ class EventController extends CController
 		if ( $events = Events::model()->findAll() ) {
 			$this->render('index', array('events' => $events));
 		} else {
-			$this->render('index');
+			$this->render('../site/index');
 		}
 	}
+
 	public function actionEvent()
 	{
-		if ( $event = Events::model()->findByAttributes(array('code' => Yii::app()->request->getParam('code'))) ) {
-			$this->render('event', array('events' => $event));
+		$code = TransliteUrl::encodeLatin(Yii::app()->request->getParam('code'));
+		if ( $event = Events::model()->findByAttributes(array('code' => $code)) ) {
+			$this->render('event', array('event' => $event));
 		} else {
-			$this->render('index');
+			$this->render('../site/index');
 		}
 	}
 }
