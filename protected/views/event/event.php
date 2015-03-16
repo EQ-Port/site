@@ -1,6 +1,6 @@
-<h1><? echo $events['name']; ?></h1>
+<h1><? echo $event['name']; ?></h1>
 <pre>
 <?
-	print "$events[description]<br />$events[place]<br />$events[address]<br />$events[start_date] $events[end_date]<hr>";
+	print "$event[description]<br />$event[place]<br />$event[address]<br />$event[start_date] $event[end_date]<hr>";
 ?>
 </pre>
