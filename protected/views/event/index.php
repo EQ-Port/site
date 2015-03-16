@@ -3,7 +3,8 @@
 <?
 	foreach ($events as $event)
 	{
-		print "<a href=/event/$event->code>$event->name</a><br />$event->description<br />$event->place<br />$event->address<br />$event->start_date $event->end_date<hr>";
+		$code = TransliteUrl::encodeCyrillic($event->code);
+		print "<a href=/event/$code>$event->name</a><br />$event->description<br />$event->place<br />$event->address<br />$event->start_date $event->end_date<hr>";
 	}
 ?>
 </pre>
